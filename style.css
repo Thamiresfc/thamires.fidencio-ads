@@ -1,0 +1,306 @@
+/*
+******LIMPAR FORMATAÇÃO******
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/*
+******FORMATAÇÃO GENÉRICA******
+*/
+body{
+    font: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #BDBFC1;
+}
+
+/*MENU HOME*/    
+#intro {
+ 
+    padding: 40px 0; 
+    text-align: center; 
+}
+
+.container {
+    width: 80%; 
+    max-width: 920px; 
+    margin: 0 auto; 
+}
+
+h1 {
+    color: #656567; 
+    font-size: 36px; 
+    font-weight: 500; 
+    margin-bottom: 10px; 
+}
+
+h2 {
+    color: #E5C12A; 
+    font-size: 48px; 
+    font-weight: bold; 
+    margin-bottom: 20px; 
+}
+
+.job-title {
+    font-size: 24px; 
+    color: #565656; 
+    margin-bottom: 15px; 
+    font-weight: 600; /
+}
+
+.description {
+    font-size: 20px; 
+    color: #656567; 
+    margin-bottom: 25px; 
+}
+
+.email-marketing {
+    font-size: 18px; 
+    color: #E5C12A; 
+    font-weight: bold; 
+}
+
+    
+
+/*
+******HEADER CABEÇALHO******
+*/
+
+
+#header{
+    background-color: #656567 ;
+    padding: 0px;
+    text-align: center ;
+    line-height: 2;
+
+}
+
+#logo {
+    padding: 15px;
+
+}
+#menu {
+    padding: 15px;
+    background-color:#D2D3D5;
+
+
+}
+
+#header a:link, #header a:visited{
+    color: #656567;
+    padding: 8px 12px;
+    text-decoration: none;
+}
+
+#header a:hover{
+    color: #E5C12A;
+    background: white;
+    text-decoration: none;
+}
+.white{
+    color: white;
+
+}
+
+/*CONTEUDOS*/
+
+#conteudo{
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+    float: center;
+}
+
+/*HOME*/
+
+.imagepostagem {
+    display: block; 
+    margin: 30px auto; 
+    width: 50%; 
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.imagepostagem:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2); 
+}
+
+
+
+/*SOBRE MIM*/
+
+.sobremim{
+    text-align: center;
+    color: #656567;
+    font-size: 20px;
+    background-color: #D2D3D5;
+    padding: 40px;
+    margin-bottom: 185px;
+    line-height: 2;
+
+}
+
+.imagepostagem2{
+
+    display: block;
+    margin: auto;
+    float: center;
+}
+
+/*FORMAÇÃO*/
+
+.formacao{
+    text-align: center;
+    color: #656567;
+    font-size: 20px;
+    background-color: #D2D3D5;
+    padding: 20px;
+    margin-bottom: 380px;
+    
+}
+
+/*PORTFÓLIO*/
+
+.imagemportfolio{
+    padding: 0;
+    display: block;
+    margin: auto;
+    float: center;
+    margin-bottom: 0px;
+
+}
+
+#linkexterno{
+    background-color: #656567 ;
+    text-align: center ;
+    margin-bottom: 155px;
+    padding: 15px;
+
+}
+
+#linkexterno a:link, #linkexterno a:visited{
+    color: white;
+    padding: 15px 12px;
+    text-decoration: none;
+    }
+    
+#linkexterno a:hover{
+    color: #E5C12A;
+    background: white;
+    text-decoration: none;
+}
+
+/*CONTATO*/
+
+.contato {
+    width: 920px; 
+    margin: 20px auto; 
+    padding: 20px; 
+    background-color: white; 
+    color: #656567; 
+    font-size: 25px; 
+    text-align: center; 
+    border-radius: 10px; 
+    border: 1px solid #D2D3D5; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;}
+
+.contato a:link, .contato a:visited{
+    color: #656567;
+    padding: 15px 12px;
+    text-decoration: none;
+}
+
+.contato a:hover{
+    color: #E5C12A;
+    background: white;
+    text-decoration: none;}
+
+.zap{
+    margin-bottom: 50px;
+    padding: 8px 12px;
+    text-align: center;
+
+}
+
+/*RODAPÉ*/
+
+#rodape{
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background: rgb(204, 203, 203);
+    margin-bottom: 1px;
+}
+
+/*FORMULARIO*/
+
+
+#formulario-contato {
+    width: 920px; 
+    margin: 20px auto; 
+    padding: 20px; 
+    background-color: white; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    text-align: left; 
+    overflow: hidden; 
+
+}
+
+#formulario-contato h2 {
+    color: #E5C12A; 
+    text-align: center; 
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+/* Campos do formulário */
+.form-group {
+    margin-bottom: 20px; 
+    display: flex; 
+    flex-direction: column; 
+}
+
+label {
+    font-size: 16px;
+    color: #656567; 
+    margin-bottom: 5px; 
+}
+
+input, textarea {
+    width: 100%; 
+    padding: 10px; 
+    font-size: 16px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    outline: none; 
+    transition: border-color 0.3s ease; 
+    box-sizing: border-box; 
+}
+
+input:focus, textarea:focus {
+    border-color: #E5C12A; 
+}
+
+/* Botão de envio */
+button {
+    width: 100%; 
+    padding: 10px; 
+    font-size: 16px; 
+    font-weight: bold;
+    color: white; 
+    background-color: #656567; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+}
+
+button:hover {
+    background-color: #E5C12A; 
+}
